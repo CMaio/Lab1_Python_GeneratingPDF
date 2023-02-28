@@ -1,0 +1,209 @@
+Introducció
+Descripció
+El present document descriu la topologia realitzada amb la configuració $name a la
+empresa TecnoCampus.
+
+Objectius
+El objectiu d'aquest document és la de formalitzar el traspàs d'informació al equip tècnic
+responsable del manteniment de les infraestructures instal·lades. Aquesta informació fa
+referencia al disseny, instal·lació i configuració dels dispositius i sistemes afectats per la
+implementació.
+La present documentació inclou:
+    -Descripció general de les infraestructures instal·lades.
+    -Configuració de les interfícies de xarxa
+    -Configuració de les polítiques per les connexions VPN
+    -Configuració dels protocols d'enrutament
+    -Configuració de les llistes de control d'accés
+    -Configuració dels banners
+
+Descripció General de les infraestructures
+Actualment la topologia té la següent distribució:
+$image
+En aquesta topologia tenim $name equips, connectats a través de $name links
+
+Configuració dels dispositius
+A continuació, es detalla la configuració dels diferents dispositius:
+
+$title
+Interfícies
+Les interfícies i la seva configuració és:
+
+
+
+
+
+
+
+
+
+title
+El darrer canvi de la configuració va ser el $name a les $name
+Configuració criptogràfica del dispositiu
+El dispositiu té la següent configuració de crypto:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interfícies
+Les interfícies i la seva configuració és:
+
+
+
+
+
+
+Configuració dels protocols d'enrutament
+El protocol d'enrutament utilitzat és $name $name, amb la següent configuració (xarxes publicades):
+
+
+
+
+Configuració de Llistes de Control d'Accés
+El dispositiu té configurada la següent ACL:
+
+
+
+
+
+Configuració de Banners
+
+
+
+
+
+$title
+El darrer canvi de la configuració va ser el $name a les $name
+
+Configuració criptogràfica del dispositiu
+El dispositiu no té configuració de crypto
+
+Interfícies
+Les interfícies i la seva configuració és:
+
+
+
+
+
+
+Configuració dels protocols d'enrutament
+El protocol d'enrutament utilitzat és $name $name, amb la següent configuració (xarxes publicades):
+
+
+
+
+
+Configuració de Llistes de Control d'Accés
+El dispositiu no té configurada cap ACL.
+
+Configuració de Banners
+
+
+
+
+
+
+
+$name
+El darrer canvi de la configuració va ser el $name a les $name
+
+Configuració criptogràfica del dispositiu
+El dispositiu té la següent configuració de crypto:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interfícies
+Les interfícies i la seva configuració és:
+
+
+
+
+
+
+Configuració dels protocols d'enrutament
+El protocol d'enrutament utilitzat és $name $name, amb la següent configuració (xarxes publicades):
+
+
+
+
+Configuració de Llistes de Control d'Accés
+El dispositiu té configurada la següent ACL:
+
+
+
+
+
+Configuració de Banners
+
+
+
+
+
+
+
+$title
+Interfícies
+Les interfícies i la seva configuració és:
+
+
+
+
+
+
+
+
+
+$title
+Interfícies
+Les interfícies i la seva configuració és:
+
+
+
+
+
+
+
+
+
+$title
+Interfícies
+Les interfícies i la seva configuració és:
+Link $name: $name. Configuració IP: $name (DG: $name)
+$title
+Interfícies
+Les interfícies i la seva configuració és:
+Link $name: $name. Configuració IP: $name (DG: $name)
+$title
+Interfícies
+Les interfícies i la seva configuració és:
+Link $name: $name. Configuració IP: $name (DG: $name)
+Interfícies
+La configuració de les interfícies (links) d'interconnexió entre equips és:
+$list
+
+
+
+
+
+
+
+El resum de les adreces IP de les interfícies és:
+$tabla
